@@ -4,6 +4,6 @@ user_data = [
  {user: {profile: {name: 'Taro'}}},
 ]
 
-user_data.each do |u|
-  puts u[:user][:profile][:name]
+user_data.each do |data|
+  puts data[:user][:profile][:name]
 end
